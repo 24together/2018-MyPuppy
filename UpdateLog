@@ -1,0 +1,41 @@
+프로젝트 개요
+	# Version _ 0.1.8 Beta
+			Class
+				- TMGC : 메인 기능 클래스(의식주 관련 및 시스템 변수 호출)
+				- TMGCMAIN : 메인 클래스
+				- TMGCJOB : 2차 전직 및 PRO/AMATEUR 관련 설정 및 기능 클래스
+				- TMGCSYS : 핵심 변수 및 펫 데이터 관리 클래스
+				- TMGCGAME : 게임 클래스
+				- TMGCQNA : 공부 클래스
+				- TMGCSTORY : 스토리 텔링 클래스
+			Function
+				- 2차 직업에 따른 각 직업별 훈련 항목 추가
+			Updated Log
+				- 정답을 입력해도 틀리다고 나오는 문제 해결(TMGCQNA Class)
+				- 직업에 대한 부분 구체화 및 스토리 텔링 개선(TMGCSTORY Class)
+			Add Function
+				- 
+			Plan to function
+				- 룰렛 게임
+				
+	# Version _ 0.1.8 Alpha
+			Class
+				- TMGC : 메인 기능 클래스(의식주 관련 및 시스템 변수 호출)
+				- TMGCMAIN : 메인 클래스
+				- TMGCJOB : 2차 전직 및 PRO/AMATEUR 관련 설정 및 기능 클래스
+				- TMGCSYS : 핵심 변수 및 펫 데이터 관리 클래스
+				- TMGCGAME : 게임 클래스
+				- TMGCQNA : 공부 클래스
+				- TMGCSTORY : 스토리 텔링 클래스
+			Function
+				- 개발자 모드 추가(print_dev)
+				- 2차 직업에 따른 각 직업별 훈련 항목 추가
+			Updated Log
+				- Tamagochi에서 My Puppy Story로 프로젝트 이름 변경(Project)
+				- 변수의 다각화로 변수만 따로 관리하는 클래스 추가(TMGCSYS)
+				- 직업이 결정 되었을 경우, 직업에 따라 훈련 가능한 항목 추가 안내(TMGCMAIN)
+			Add Function
+				- 수도 맞추기 공부 게임(TMGCQNA Class)
+				- 가위바위보 게임, Up and Down 게임(TMGCGAME Class)
+			Plan to function
+				- 룰렛 게임
